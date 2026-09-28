@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "evy-xinh-addon",
+  "name": "Evy Xinh (Created by Evy)",
+  "version": "1.0.0",
+  "description": "Addon độc quyền cho KingMC - Created by Evy.",
+  "authors": ["Evy"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.evyxinh.addon.EvyXinhAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "meteor-client": "*"
+  }
+}
